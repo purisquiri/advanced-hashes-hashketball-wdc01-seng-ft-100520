@@ -190,5 +190,14 @@ def big_shoe_rebounds
   player_helper.max_by {|k| k [:shoe]}[:rebounds] 
 end
 
+#extras
 
+def most_points_scored
+  player_helper.max_by { |k| k [:points]}[:player_name]
+end
+
+def winning_team
   
+end
+
+binding.pry  
